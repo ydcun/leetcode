@@ -31,7 +31,7 @@ public class FullArry {
             return;
         }
         int temp;
-        for(int i=n;i<size;i++){
+        for(int i=n;i<size;i++){  //1XXX 2XXX 3XXX 4XXX
             if(!isDuplicate(a,n,i)) //a[i] 是否在[n,i)是否出现过
                 continue;
             temp = a[i];
@@ -53,7 +53,7 @@ public class FullArry {
         }
         Map<String,String> map = new HashMap<String,String>();
         int temp;
-        for(int i=n;i<size;i++){
+        for(int i=n;i<size;i++){//1XXX 2XXX 3XXX 4XXX
             if(map.get(a[i]+"")!=null)
                 continue;
             map.put(a[i]+"","ok");
